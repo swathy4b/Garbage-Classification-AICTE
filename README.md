@@ -72,9 +72,25 @@ To train the model with your own dataset:
    - Save the best model as `best_garbage_model.h5`
    - Generate performance visualizations
 
-## 🔍 Making Predictions
+## 🌐 Web Interface
 
-To classify a waste image:
+Run the web application:
+
+```bash
+python app.py
+```
+
+Open your browser and navigate to `http://127.0.0.1:5000` to use the interactive web interface.
+
+### Features:
+- Drag and drop image upload
+- Real-time classification
+- Confidence score visualization
+- Mobile-responsive design
+
+## 🔍 Command Line Predictions
+
+To classify a waste image using the command line:
 
 ```bash
 python prediction.py
